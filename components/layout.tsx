@@ -9,7 +9,7 @@ export default function Layout({ children }: LayoutProps) {
   return (
     <div>
       <header className="header">
-        <h1>Electricity Bill Calculator</h1>
+      <h1>Electricity Bill Calculator - CI/CD Test 🚀</h1>
       </header>
       <main className="container">{children}</main>
     </div>
