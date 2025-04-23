@@ -1,40 +1,38 @@
-<<<<<<< HEAD
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Sri Lanka Electricity Bill Calculator
 
-## Getting Started
+## Deployment & CI/CD Pipeline
 
-First, run the development server:
+This application is built with Next.js and automatically deployed using Netlify's CI/CD pipeline.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### CI/CD Workflow
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. **Continuous Integration**:
+   - Every push to the main branch triggers automated builds
+   - Code is automatically tested and validated
+   - Build previews are generated for pull requests
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. **Continuous Deployment**:
+   - Successful builds on the main branch are automatically deployed to production
+   - Zero-downtime deployments ensure uninterrupted service
+   - Each deployment creates a unique URL for version tracking
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Netlify Deployment Features
 
-## Learn More
+- **Automatic HTTPS**: SSL certificates are automatically provisioned and renewed
+- **Edge Network**: Content is distributed globally for fast access
+- **Branch Deploys**: Feature branches get their own preview deployments
+- **Deploy Previews**: Visual review of changes before merging to main
+- **Environment Variables**: Secure management of configuration values
+- **Build Plugins**: Optimized build process for Next.js applications
+- **Serverless Functions**: Support for API routes and server components
 
-To learn more about Next.js, take a look at the following resources:
+### Development Workflow
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Make changes locally and push to GitHub
+2. Netlify automatically builds and deploys your changes
+3. Review deploy previews for pull requests
+4. Merge to main for production deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+[Live Demo](https://srilankaelectricitybillcalculator.netlify.app/)
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-=======
-# CI-CD-Demo
->>>>>>> f23806b6c9873708d2db7b8fb6bb2cd267bb4b70
