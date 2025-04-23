@@ -1,6 +1,6 @@
 # Sri Lanka Electricity Bill Calculator
 
-##The Sri Lanka Electricity Bill Calculator is a Micro SaaS application designed to help Sri Lankan residents and businesses accurately calculate their electricity bills based on the complex tariff structure set by the Ceylon Electricity Board (CEB) and Lanka Electricity Company (LECO). This tool aims to provide clarity and transparency in electricity billing, helping users budget effectively and identify potential energy-saving opportunities.
+The Sri Lanka Electricity Bill Calculator is a Micro SaaS application designed to help Sri Lankan residents and businesses accurately calculate their electricity bills based on the complex tariff structure set by the Ceylon Electricity Board (CEB) and Lanka Electricity Company (LECO). This tool aims to provide clarity and transparency in electricity billing, helping users budget effectively and identify potential energy-saving opportunities.
 
 ## Deployment & CI/CD Pipeline
 
